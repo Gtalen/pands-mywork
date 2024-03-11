@@ -8,3 +8,5 @@ floated = (float(amount * 100))
 amount_in_cent = ("{:.0f}").format(floated)
 print (amount_in_cent)
 print (str(amount_in_cent) + 'cent')
+#format is used to concatenate strings and integer without conversion
+print ("{} cent'".format(amount_in_cent))

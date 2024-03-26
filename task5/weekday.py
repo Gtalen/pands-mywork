@@ -15,7 +15,7 @@ def is_weekday (weekday_no):
 #dictionary mapping of weekdays to its corresponding number
     weekdays = {
     0: "Monday",
-    1: "|Tuesday",
+    1: "Tuesday",
     2: "Wednesday",
     3: "Thursday",
     4: "Friday",

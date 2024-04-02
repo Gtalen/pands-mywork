@@ -11,7 +11,7 @@ print(type(now))
 print (f"Today's date and time is {now}")
 
 #define the weekday function
-def is_weekday (weekday_no):
+def is_weekday (*weekdays):
 #dictionary mapping of weekdays to its corresponding number
     weekdays = {
     0: "Monday",
@@ -41,7 +41,7 @@ if weekday_no <= 4:
 else:
     print (f"{is_weekday(weekday_no)} is the weekend, yay!")
 
-
+print(is_weekday(weekday_no))
 #python weekday function numbers weekdays from 0 to 6
     # Ensure the entered weekday number is valid and an integer
 #while weekday_no < 0 or weekday_no > 6 or type(weekday_no) != int

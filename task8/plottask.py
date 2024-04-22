@@ -28,4 +28,7 @@ y = h(x)
 #plotting the data using the function h(x)=x3 in the range 0 to 10
 
 plt.plot (x,y)
+plt.xlabel ('x in range 0 - 10')
+plt.ylabel (' y = x^3')
+plt.legend()
 plt.show ()

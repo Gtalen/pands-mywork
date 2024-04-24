@@ -6,14 +6,17 @@ with open ('mobydick.txt', 'r') as moby:
     mobyDisk = moby.read()  #reads the content of the file
     print (mobyDisk) #prints out the output
     #print (mobyDisk.readline())
-eCount = 0
+e_freq = mobyDisk.count("e") 
+print (f"The frequency of Es in Mobydick is {e_freq}")
+"""
+#eCount = 0
 for letter in mobyDisk: #iteration is used to count all the 'e's in the file
    if letter == 'e':
       eCount += 1
 print  ("The 'e' count in mobydick is: ", eCount) #outputs the the total count
 
 moby.close() #closes the file
-
+"""
 #Referenecs
 
 #Python File Open [WWW Document], n.d. URL https://www.w3schools.com/python/python_file_handling.asp

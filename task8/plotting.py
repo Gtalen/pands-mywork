@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib as mpl
-'''
+
 print (mpl.__version__)
 print (np.__version__)
 xpoints = np.array([0,6])
@@ -35,7 +35,7 @@ plt.plot(ypoints, marker = 'o') #marker is used to emphasize each point
 plt.show()
 plt.plot(ypoints, marker = '*') #marker is used to emphasize each point
 plt.show()
-'''
+
 #different markers can be used such as d, p, H, h etc
 
 x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
